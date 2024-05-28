@@ -1,0 +1,70 @@
+RandomForestClassifier
+Confusion Matrix:
+[[234  32]
+ [ 33 119]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.88      0.88       266
+           1       0.79      0.78      0.79       152
+
+    accuracy                           0.84       418
+   macro avg       0.83      0.83      0.83       418
+weighted avg       0.84      0.84      0.84       418
+
+LogisticRegression
+Confusion Matrix:
+[[254  12]
+ [  7 145]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.95      0.96       266
+           1       0.92      0.95      0.94       152
+
+    accuracy                           0.95       418
+   macro avg       0.95      0.95      0.95       418
+weighted avg       0.96      0.95      0.95       418
+
+SVC
+Confusion Matrix:
+[[236  30]
+ [115  37]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.89      0.76       266
+           1       0.55      0.24      0.34       152
+
+    accuracy                           0.65       418
+   macro avg       0.61      0.57      0.55       418
+weighted avg       0.63      0.65      0.61       418
+
+DecisionTreeClassifier
+Confusion Matrix:
+[[224  42]
+ [ 37 115]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.84      0.85       266
+           1       0.73      0.76      0.74       152
+
+    accuracy                           0.81       418
+   macro avg       0.80      0.80      0.80       418
+weighted avg       0.81      0.81      0.81       418
+
+VotingClassifier
+Confusion Matrix:
+[[244  22]
+ [ 34 118]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.92      0.90       266
+           1       0.84      0.78      0.81       152
+
+    accuracy                           0.87       418
+   macro avg       0.86      0.85      0.85       418
+weighted avg       0.87      0.87      0.86       418
+
